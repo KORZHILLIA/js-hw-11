@@ -1,0 +1,24 @@
+{
+  "name": "js-hw-11",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KORZHILLIA/js-hw-11.git"
+  },
+  "author": "Korj Illia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KORZHILLIA/js-hw-11/issues"
+  },
+  "homepage": "https://github.com/KORZHILLIA/js-hw-11#readme",
+  "devDependencies": {
+    "modern-normalize": "^1.1.0",
+    "parcel": "^2.5.0"
+  }
+}
