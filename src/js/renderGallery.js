@@ -1,7 +1,11 @@
-import { gallery } from '../index';
+import { gallery, loadMoreBtn } from '../index';
+
+let currentPageNumber = 0;
 
 export default function renderGallery(imgsObj) {
-    const imgsArray = imgsObj.hits;
+  const imgsArray = imgsObj.hits;
+  const totalHits = imgsObj.totalHits;
+  const maxPossiblePages = Math.ceil(totalHits / 40);
     const markup = imgsArray.map( ({ comments, downloads, largeImageURL: large, likes, tags, views, webformatURL: web }) => {
         return `
         <div class="photo-card">
@@ -26,5 +30,15 @@ export default function renderGallery(imgsObj) {
   </div>
 </div>`
     }).join('');
-    gallery.innerHTML = markup;
+  gallery.insertAdjacentHTML('beforeend', markup);
+  currentPageNumber += 1;
+  console.log(currentPageNumber, maxPossiblePages);
+  if (currentPageNumber === maxPossiblePages) {
+    loadMoreBtn.classList.add('hidden');
+    setTimeout(() => {
+      alert("We're sorry, but you've reached the end of search results.");
+    }, 1000);
+  }
 }
+// To ask: why alert doesn't work properly without setTimeout? I mean, if setTimeout is not in use,
+//  alert appears first, and rendering fires AFTER pressing button 'OK'.

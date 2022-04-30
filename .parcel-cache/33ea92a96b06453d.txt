@@ -50,7 +50,7 @@
 93C:\Users\User\Documents\Projects\js-hw-11\node_modules\terser\lib\utils\first_in_statement.js132957113800116838 0
 86C:\Users\User\Documents\Projects\js-hw-11\node_modules\caniuse-lite\data\regions\BW.js132957113808301070 0
 104C:\Users\User\Documents\Projects\js-hw-11\node_modules\@parcel\core\test\fixtures\invalid-source-missing132957113832686046 1
-59C:\Users\User\Documents\Projects\js-hw-11\src\sass\main.css132957165548532097 0
+59C:\Users\User\Documents\Projects\js-hw-11\src\sass\main.css132958107608273003 0
 100C:\Users\User\Documents\Projects\js-hw-11\node_modules\dom-serializer\node_modules\entities\lib\maps132957113794703081 1
 79C:\Users\User\Documents\Projects\js-hw-11\node_modules\csso\lib\clean\Atrule.js132957113794562716 0
 70C:\Users\User\Documents\Projects\js-hw-11\node_modules\yaml\index.d.ts132957113804082014 0
@@ -73,7 +73,7 @@
 45C:\Users\User\Documents\Projects\js-hw-11\src132957165974282023 1
 80C:\Users\User\Documents\Projects\js-hw-11\node_modules\terser\lib\utils\index.js132957113800778593 0
 63C:\Users\User\Documents\Projects\js-hw-11\node_modules\get-port132957113808551714 1
-46C:\Users\User\Documents\Projects\js-hw-11\dist132957272154888454 1
+46C:\Users\User\Documents\Projects\js-hw-11\dist132958289015351711 1
 83C:\Users\User\Documents\Projects\js-hw-11\node_modules\@parcel\events\src\errors.js132957113823441432 0
 81C:\Users\User\Documents\Projects\js-hw-11\node_modules\node-addon-api\common.gypi132957113791920989 0
 63C:\Users\User\Documents\Projects\js-hw-11\node_modules\escalade132957113793785948 1
@@ -82,7 +82,7 @@
 112C:\Users\User\Documents\Projects\js-hw-11\node_modules\htmlnano\docs\versioned_docs\version-1.1.1\050-modules.md132957113806055076 0
 81C:\Users\User\Documents\Projects\js-hw-11\node_modules\@parcel\core\lib\Parcel.js132957113827404799 0
 80C:\Users\User\Documents\Projects\js-hw-11\node_modules\@parcel\types\build-ts.js132957113801680993 0
-56C:\Users\User\Documents\Projects\js-hw-11\src\index.html132957224747843279 0
+56C:\Users\User\Documents\Projects\js-hw-11\src\index.html132958111784845089 0
 64C:\Users\User\Documents\Projects\js-hw-11\node_modules\svgo\dist132957113807137951 1
 82C:\Users\User\Documents\Projects\js-hw-11\node_modules\@parcel\workers\src\process132957113808421377 1
 73C:\Users\User\Documents\Projects\js-hw-11\node_modules\nan\doc\buffers.md132957113799375510 0
@@ -92,7 +92,7 @@
 89C:\Users\User\Documents\Projects\js-hw-11\node_modules\@parcel\codeframe\lib\codeframe.js132957113802412948 0
 103C:\Users\User\Documents\Projects\js-hw-11\node_modules\caniuse-lite\data\features\navigator-language.js132957113828774434 0
 77C:\Users\User\Documents\Projects\js-hw-11\node_modules\yaml\browser\schema.js132957113800357478 0
-54C:\Users\User\Documents\Projects\js-hw-11\src\index.js132957271430254745 0
+54C:\Users\User\Documents\Projects\js-hw-11\src\index.js132958132604085401 0
 103C:\Users\User\Documents\Projects\js-hw-11\node_modules\@babel\highlight\node_modules\chalk\templates.js132957113792853477 0
 66C:\Users\User\Documents\Projects\js-hw-11\node_modules\yaml\seq.js132957113800798651 0
 71C:\Users\User\Documents\Projects\js-hw-11\node_modules\.bin\detect-libc132957113862125553 0
@@ -110,7 +110,7 @@
 83C:\Users\User\Documents\Projects\js-hw-11\node_modules\@swc\helpers\lib\_extends.js132957113800908949 0
 79C:\Users\User\Documents\Projects\js-hw-11\node_modules\nth-check\lib\compile.js132957113790376887 0
 64C:\Users\User\Documents\Projects\js-hw-11\node_modules\@trysound132957113782358753 1
-63C:\Users\User\Documents\Projects\js-hw-11\src\sass\main.css.map132957165548512057 0
+63C:\Users\User\Documents\Projects\js-hw-11\src\sass\main.css.map132958107608293230 0
 86C:\Users\User\Documents\Projects\js-hw-11\node_modules\htmlnano\lib\presets\ampSafe.js132957113792522588 0
 77C:\Users\User\Documents\Projects\js-hw-11\node_modules\whatwg-url\LICENSE.txt132957113795465111 0
 86C:\Users\User\Documents\Projects\js-hw-11\node_modules\caniuse-lite\data\regions\MQ.js132957113828202928 0
@@ -120,12 +120,12 @@
 87C:\Users\User\Documents\Projects\js-hw-11\node_modules\svgo\plugins\convertTransform.js132957113798874172 0
 90C:\Users\User\Documents\Projects\js-hw-11\node_modules\caniuse-lite\data\features\audio.js132957113801299980 0
 87C:\Users\User\Documents\Projects\js-hw-11\node_modules\@mischnic\json-sourcemap\LICENSE132957113801921633 0
-72C:\Users\User\Documents\Projects\js-hw-11\src\sass\components\_form.scss132957165548303595 0
+72C:\Users\User\Documents\Projects\js-hw-11\src\sass\components\_form.scss132958107607962448 0
 69C:\Users\User\Documents\Projects\js-hw-11\node_modules\domelementtype132957113793906268 1
 90C:\Users\User\Documents\Projects\js-hw-11\node_modules\source-map\dist\source-map.debug.js132957113797821377 0
 69C:\Users\User\Documents\Projects\js-hw-11\node_modules\@parcel\plugin132957113795364849 1
 70C:\Users\User\Documents\Projects\js-hw-11\node_modules\posthtml-render132957113792181677 1
-61C:\Users\User\Documents\Projects\js-hw-11\src\js\fetchImgs.js132957243585454094 0
+61C:\Users\User\Documents\Projects\js-hw-11\src\js\fetchImgs.js132958267399696794 0
 73C:\Users\User\Documents\Projects\js-hw-11\node_modules\yaml\dist\index.js132957113794833432 0
 79C:\Users\User\Documents\Projects\js-hw-11\node_modules\v8-compile-cache\LICENSE132957113789487714 0
 84C:\Users\User\Documents\Projects\js-hw-11\node_modules\@swc\helpers\lib\_decorate.js132957113800357478 0
@@ -137,7 +137,7 @@
 94C:\Users\User\Documents\Projects\js-hw-11\node_modules\css-tree\lib\common\OffsetToLocation.js132957113809323767 0
 117C:\Users\User\Documents\Projects\js-hw-11\node_modules\abortcontroller-polyfill\dist\abortcontroller-polyfill-only.js132957113794377525 0
 61C:\Users\User\Documents\Projects\js-hw-11\node_modules\dotenv132957113794512578 1
-65C:\Users\User\Documents\Projects\js-hw-11\src\js\renderGallery.js132957272988444519 0
+65C:\Users\User\Documents\Projects\js-hw-11\src\js\renderGallery.js132958289014055143 0
 75C:\Users\User\Documents\Projects\js-hw-11\node_modules\lmdb\src\lmdb-js.cpp132957113809313741 0
 64C:\Users\User\Documents\Projects\js-hw-11\node_modules\yaml\dist132957113802954281 1
 94C:\Users\User\Documents\Projects\js-hw-11\node_modules\caniuse-lite\data\features\classlist.js132957113811502282 0
@@ -3051,7 +3051,7 @@
 100C:\Users\User\Documents\Projects\js-hw-11\node_modules\caniuse-lite\data\features\media-attribute.js132957113826855333 0
 100C:\Users\User\Documents\Projects\js-hw-11\node_modules\caniuse-lite\data\features\media-fragments.js132957113827275315 0
 109C:\Users\User\Documents\Projects\js-hw-11\node_modules\caniuse-lite\data\features\mediacapture-fromelement.js132957113827495053 0
-69C:\Users\User\Documents\Projects\js-hw-11\dist\index.5cd32be8.css.map132957268543894010 0
+69C:\Users\User\Documents\Projects\js-hw-11\dist\index.5cd32be8.css.map132958288824330187 0
 85C:\Users\User\Documents\Projects\js-hw-11\node_modules\@parcel\core\src\buildCache.js132957113819669714 0
 98C:\Users\User\Documents\Projects\js-hw-11\node_modules\caniuse-lite\data\features\mediarecorder.js132957113827525142 0
 96C:\Users\User\Documents\Projects\js-hw-11\node_modules\caniuse-lite\data\features\mediasource.js132957113827545190 0
@@ -3314,7 +3314,7 @@
 93C:\Users\User\Documents\Projects\js-hw-11\node_modules\@swc\helpers\src\_non_iterable_rest.js132957113814329463 0
 99C:\Users\User\Documents\Projects\js-hw-11\node_modules\@parcel\runtime-js\lib\helpers\bundle-url.js132957113809444087 0
 95C:\Users\User\Documents\Projects\js-hw-11\node_modules\@swc\helpers\src\_non_iterable_spread.js132957113814359543 0
-57C:\Users\User\Documents\Projects\js-hw-11\dist\index.html132957268543953117 0
+57C:\Users\User\Documents\Projects\js-hw-11\dist\index.html132958288824330187 0
 103C:\Users\User\Documents\Projects\js-hw-11\node_modules\@swc\helpers\src\_possible_constructor_return.js132957113814600183 0
 91C:\Users\User\Documents\Projects\js-hw-11\node_modules\@swc\helpers\src\_read_only_error.js132957113814630267 0
 91C:\Users\User\Documents\Projects\js-hw-11\node_modules\@swc\helpers\src\_super_prop_base.js132957113814750583 0
@@ -3542,7 +3542,7 @@
 112C:\Users\User\Documents\Projects\js-hw-11\node_modules\@parcel\core\test\fixtures\invalid-target-source-not-file132957113832756233 1
 82C:\Users\User\Documents\Projects\js-hw-11\node_modules\@parcel\utils\src\schema.js132957113815502582 0
 89C:\Users\User\Documents\Projects\js-hw-11\node_modules\@parcel\utils\src\shared-buffer.js132957113815522636 0
-64C:\Users\User\Documents\Projects\js-hw-11\dist\index.975ef6c8.js132957272154818245 0
+64C:\Users\User\Documents\Projects\js-hw-11\dist\index.975ef6c8.js132958289015301587 0
 69C:\Users\User\Documents\Projects\js-hw-11\node_modules\.bin\json5.cmd132957113862115540 0
 85C:\Users\User\Documents\Projects\js-hw-11\node_modules\@parcel\utils\src\TapStream.js132957113815733200 0
 84C:\Users\User\Documents\Projects\js-hw-11\node_modules\@parcel\utils\src\throttle.js132957113815753245 0
@@ -4073,6 +4073,6 @@
 64C:\Users\User\Documents\Projects\js-hw-11\node_modules\.bin\svgo132957113862155633 0
 68C:\Users\User\Documents\Projects\js-hw-11\node_modules\.bin\svgo.cmd132957113862155633 0
 70C:\Users\User\Documents\Projects\js-hw-11\node_modules\.bin\terser.cmd132957113862145606 0
-65C:\Users\User\Documents\Projects\js-hw-11\dist\index.5cd32be8.css132957268543894010 0
-68C:\Users\User\Documents\Projects\js-hw-11\dist\index.975ef6c8.js.map132957272154848312 0
+65C:\Users\User\Documents\Projects\js-hw-11\dist\index.5cd32be8.css132958288824330187 0
+68C:\Users\User\Documents\Projects\js-hw-11\dist\index.975ef6c8.js.map132958289015331658 0
 71C:\Users\User\Documents\Projects\js-hw-11\dist\js-hw-11.59712999.js.map132957128031986366 0
