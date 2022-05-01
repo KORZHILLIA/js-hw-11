@@ -1,15 +1,15 @@
 import { gallery, loadMoreBtn } from '../index';
+import { Notify } from 'notiflix/build/notiflix-notify-aio';
 
-let currentPageNumber = 0;
-
-export default function renderGallery(imgsObj) {
+export default function renderGallery(imgsObj, page) {
+  let currentPageNumber = page - 1;
   const imgsArray = imgsObj.hits;
   const totalHits = imgsObj.totalHits;
   const maxPossiblePages = Math.ceil(totalHits / 40);
     const markup = imgsArray.map( ({ comments, downloads, largeImageURL: large, likes, tags, views, webformatURL: web }) => {
         return `
         <div class="photo-card">
-  <img src="${web}" alt="${tags}" loading="lazy" />
+  <img src="${web}" alt="${tags}" title="${tags}" loading="lazy" />
   <div class="info">
     <p class="info-item">
       <b>Likes</b>
@@ -28,17 +28,24 @@ export default function renderGallery(imgsObj) {
       ${downloads}
     </p>
   </div>
-</div>`
+</div>`;
     }).join('');
-  gallery.insertAdjacentHTML('beforeend', markup);
+    if (!currentPageNumber) {
+      Notify.success(`Hooray! We found ${totalHits} images.`);
+    }
+    gallery.insertAdjacentHTML('beforeend', markup);
+  const { height: galleryHeight } = gallery.getBoundingClientRect();
+  window.scrollTo({ top: galleryHeight, behavior: 'smooth' });
   currentPageNumber += 1;
-  console.log(currentPageNumber, maxPossiblePages);
+  console.log(
+    currentPageNumber,
+    maxPossiblePages,
+  );
   if (currentPageNumber === maxPossiblePages) {
     loadMoreBtn.classList.add('hidden');
-    setTimeout(() => {
-      alert("We're sorry, but you've reached the end of search results.");
-    }, 1000);
+    Notify.info("We're sorry, but you've reached the end of search results.");
   }
 }
-// To ask: why alert doesn't work properly without setTimeout? I mean, if setTimeout is not in use,
+
+// To ask: If Notiflix is not in use, why alert doesn't work properly without setTimeout? I mean, if setTimeout is not in use,
 //  alert appears first, and rendering fires AFTER pressing button 'OK'.

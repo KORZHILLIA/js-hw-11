@@ -20,5 +20,8 @@
   "devDependencies": {
     "modern-normalize": "^1.1.0",
     "parcel": "^2.5.0"
+  },
+  "dependencies": {
+    "notiflix": "^3.2.5"
   }
 }

@@ -1,4 +1,5 @@
-import { loadMoreBtn } from "../index";
+import { gallery, loadMoreBtn } from "../index";
+import { Notify } from 'notiflix/build/notiflix-notify-aio';
 
 const URL_MAIN = 'https://pixabay.com/api/';
 const KEY = '27083627-728c5d78e0dae05c6569d7d6c';
@@ -16,6 +17,8 @@ export default async function fetchImgs(query, page) {
     }
     const imgs = await response.json();
     if (!imgs.hits.length) {
+        loadMoreBtn.classList.add('hidden');
+        gallery.innerHTML = '';
         throw new Error('Sorry, there are no images matching your search query. Please try again.');
     }
     console.log(imgs);
